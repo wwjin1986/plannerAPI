@@ -9,6 +9,6 @@ public class EventController {
 
 	@RequestMapping(method = RequestMethod.GET, value ="/")
 	public String getEvents() {
-		return "get events";
+		return "get all events";
 	}
 }
